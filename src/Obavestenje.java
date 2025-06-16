@@ -6,6 +6,10 @@ public class Obavestenje {
         this.naslov = naslov;
         this.sadrzaj = sadrzaj;
     }
+    public void posalji() {
+        System.out.println("Obaveštenje: " + naslov + " - " + sadrzaj);
+    }
+
 
     public String getNaslov() {
         return naslov;
